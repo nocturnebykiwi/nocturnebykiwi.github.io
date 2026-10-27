@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#0b0910">
+    <meta name="description" content="Nocturne is a community built around connection, creativity, and the quiet hours of the night.">
+
+    <title>Nocturne — Find Your Night</title>
+
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/router.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="?page=home" data-route="home" aria-label="Nocturne Home">
+            <span class="brand-mark">N</span>
+            <span class="brand-name">NOCTURNE</span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav">
+            <a href="?page=home" data-route="home">Home</a>
+            <a href="?page=about" data-route="about">About</a>
+            <a href="?page=rules" data-route="rules">Guidelines</a>
+            <a href="?page=staff" data-route="staff">Our Team</a>
+            <a class="nav-discord" href="https://discord.com/"
+               target="_blank" rel="noopener noreferrer">
+                Join Discord <span aria-hidden="true">↗</span>
+            </a>
+        </nav>
+    </header>
+
+    <main id="page-content" tabindex="-1">
+        <div class="loading-state">Entering the night...</div>
+    </main>
+
+    <footer class="site-footer">
+        <a class="footer-brand" href="?page=home" data-route="home">
+            NOCTURNE<span>.</span>
+        </a>
+
+        <p>A place beyond the noise.</p>
+
+        <div class="footer-links">
+            <a href="?page=about" data-route="about">About</a>
+            <a href="?page=rules" data-route="rules">Guidelines</a>
+            <a href="?page=staff" data-route="staff">Our Team</a>
+            <a href="https://discord.com/" target="_blank"
+               rel="noopener noreferrer">Discord ↗</a>
+        </div>
+
+        <p class="copyright">
+            © <span id="current-year"></span> Nocturne Community.
+            All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>

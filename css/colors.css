@@ -1,0 +1,24 @@
+
+:root {
+    color-scheme: dark;
+
+    --primary-color: #5B2A86;
+    --secondary-color: #9B6FC7;
+    --accent-color: #C8A2E8;
+
+    --background-color: #0b0910;
+    --surface-color: #110e18;
+    --surface-light: #171220;
+    --border-color: #292035;
+
+    --text-color: #F4EFF9;
+    --muted-color: #A79BB5;
+
+    --success-color: #9BDBB1;
+
+    --font-body: "Segoe UI", Arial, sans-serif;
+    --font-heading: Georgia, "Times New Roman", serif;
+
+    --container-width: 1180px;
+    --header-height: 78px;
+}
